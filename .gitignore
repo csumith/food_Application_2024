@@ -1,0 +1,3 @@
+//// Here we are creating two local state in both state we are keeping over api data like in ListofResturant we have = api data and filterResturant also we have = api data 
+// but when it's time to filter data that time we are filter from ListofResturant and filter data keeping inside filterResturant 
+// so whenever we are filtering we have all 15 card  data next time and while rendering we are render filterResturant data
