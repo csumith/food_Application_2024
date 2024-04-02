@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import  ReactDOM  from "react-dom/client"
 import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
 import Headers from "./src/components/Headers";
@@ -8,14 +8,13 @@ import Contact from "./src/components/Contact";
 import ResturantMenu from "./src/components/ResturantMenu";
 import Newclass from "./src/components/Newclass";
 import Error from "./src/components/Error";
-
-
+import Usercontext from "./utils/Usercontext";
 import { Suspense,lazy } from "react"
 //chunking
 //lazy loading
 //code spliting
 //ondemand loading
-const Grosary = lazy(()=> import("./src/components/grosary"))
+ const Grosary = lazy(()=> import("./src/components/Grosary"))
 
 
 
@@ -27,12 +26,24 @@ const stylecard = {
 
 
   const Applayout = ()=>{
+    const [name,setname] = useState("")
+
+    useEffect(()=>{
+     //authentication
+     const data = {
+        name : "Sumit Chouhan"
+
+     }
+     setname(data.name)
+    },[])
     return(
+        <Usercontext.Provider value = {{LoggedInUSer:name,setname}}>
         <div className="app">
             <Headers/>
             <Outlet/>
          
         </div>
+        </Usercontext.Provider>
     )
 }
 

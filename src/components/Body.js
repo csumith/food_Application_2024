@@ -1,9 +1,9 @@
 import RestroCard ,{withPromoteLabel} from "./RestroCard"
 import Shimer from "./Shimer"
 import { Link } from "react-router-dom"
-import { useState,useEffect } from "react"
+import { useState,useEffect,useContext } from "react"
 import useOnlineState from "../../utils/useOnlineStatus"
-
+import Usercontext from "../../utils/Usercontext"
 
 const Body=()=>{
     //custom hook is created
@@ -18,6 +18,7 @@ console.log("checking body rerendering")
 const [ListofResturant,setListofResturant] = useState([])
 const [filterResturant,setfilterResturant] = useState([])
 const [searchText,setsearchText]= useState("")
+
 
 // if no dependency array => useEffect is called on every render
     useEffect(()=>{
@@ -35,6 +36,7 @@ const [searchText,setsearchText]= useState("")
     
       if(onlineStatus ===false) return <h1>Looks like you are offline!!  Pls check your internet Connection</h1>
     
+     const {LoggedInUSer,setname} = useContext(Usercontext) 
     return (
         <div className="body">
             <div className="filter flex items-center ">
@@ -78,6 +80,19 @@ const [searchText,setsearchText]= useState("")
                 }}>Top-Rated-Resturants</button>
                  </div>
               
+                 <div className="search m-4 p-4 flex items-center">
+                    <label>UserName :</label>
+                    <input 
+                    type="text" 
+                    className="search-box border border-solid border-black rounded-lg px-2" 
+                    value={LoggedInUSer} 
+                    onChange={(e)=>{
+                    setname(e.target.value)
+                    }}
+                    />
+                   
+                </div>
+                
                
             </div>
             <div className="rest-container flex flex-wrap ">

@@ -2,6 +2,8 @@ import { LOGO_URL } from "../../utils/constant"
 import { useState,useEffect } from "react"
 import { Link } from "react-router-dom"
 import useOnlineState from "../../utils/useOnlineStatus"
+import { useContext } from "react"
+import Usercontext from "../../utils/Usercontext"
 const Headers=()=>{
      const onlineStatus = useOnlineState()
     //Never use a useState of outside of your component
@@ -16,6 +18,9 @@ const Headers=()=>{
      useEffect(()=>{
         console.log("useEffect called")
     },[])
+
+    const {LoggedInUSer} = useContext(Usercontext)
+
     return(
         <div className="flex justify-between bg-orange-700 shadow-lg">
             <div className="logo-container text-white text-xl font-semibold">
@@ -24,9 +29,9 @@ const Headers=()=>{
             <div className="flex items-center">
                 <ul className="flex p-4 m-4" >
                     
-                    <li className="px-4 text-white hover:text-gray-300">Status {onlineStatus?
-                        <div className="online-status"></div>
-                        :<div className="online-status1"></div>}
+                    <li className="px-4 text-white hover:text-gray-300">Status { onlineStatus?
+                        '🟢'
+                        :"🔴"}
                     </li>
                     
                     <li className="px-4 text-white hover:text-gray-300"><Link to="/">Home</Link></li>
@@ -38,6 +43,8 @@ const Headers=()=>{
                     <li className="px-4 text-white hover:text-gray-300"><button onClick={()=>{
                          btn==="login" ?setbtn("logout"):setbtn("login")
                     }}>{btn}</button></li>
+                    <li className="px-4 text-green-500 hover:text-gray-300 font-bold">{LoggedInUSer}</li>
+
                 </ul>
             </div>
         </div>

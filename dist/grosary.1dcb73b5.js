@@ -618,10 +618,27 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Grosary = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "grosary store"
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-center",
+                children: "grosary store"
+            }, void 0, false, {
+                fileName: "src/components/grosary.js",
+                lineNumber: 12,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-center",
+                children: LoggedInUSer
+            }, void 0, false, {
+                fileName: "src/components/grosary.js",
+                lineNumber: 13,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/grosary.js",
-        lineNumber: 5,
+        lineNumber: 11,
         columnNumber: 5
     }, undefined);
 };

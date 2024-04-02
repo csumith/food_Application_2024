@@ -6,17 +6,17 @@ const ReasturantCategory = ({data,showitem,setshowindex}) => {
   
   console.log("data==",data)
 
-  const handleClick = ()=>{
-   setshowindex()
-  }
+  // const handleClick = ()=>{
+  //  setshowindex()
+  // }
   
  
   return (
     // header od Acordion
-    <div>
-      <div className="Menu-box w-6/12 mx-auto my-2 bg-gray-100 rounded-lg p-8 shadow-md text-center ">
+    <div className='py-4'>
+      <div className="Menu-box w-6/12 mx-auto my-2 bg-gray-100 rounded-lg  p-8 shadow-md text-center ">
        <div className='flex justify-between cursor-pointer' 
-       onClick={handleClick}
+       onClick={()=>setshowindex()}
        >
             <span className= "font-semibold text-lg">{data.title} ({data.itemCards.length})</span>
             <span>⬇</span>

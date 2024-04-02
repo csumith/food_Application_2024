@@ -26,10 +26,8 @@ const ResturantMenu=()=>{
         console.log("json =",json.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards)
         setrestroMenu(json.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[4].card.card.itemCards)
         setcategory(json.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards)
-        
         console.log('category',category)
-     
-     }
+    }
        
 
 
@@ -39,7 +37,7 @@ const ResturantMenu=()=>{
 
 
     return restroMenu.length === 0 ?(<Shimer/>):(
-    <div className="Menu-box bg-gray-100 rounded-lg p-8 shadow-md text-center">
+    <div className="Menu-box bg-gray-100 rounded-lg p-8 shadow-md text-center ">
     <h1 className="text-3xl font-bold mb-4">Menu</h1>
     
     <ul>
@@ -52,7 +50,7 @@ const ResturantMenu=()=>{
 
    {
     filter.map((listrestro,index)=>{ 
-        console.log(index)
+        //console.log(index)
         return<ReasturantCategory data={listrestro.card.card}
         showitem={index ===showindex ? true: false }
         setshowindex={()=>setshowindex(index)}

@@ -1,4 +1,4 @@
-8225
+8228
 66G:\React-js-3-food-application\node_modules\source-map\lib\util.js133561863664571674 0
 122G:\React-js-3-food-application\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Identifier.js133561863680538375 0
 67G:\React-js-3-food-application\node_modules\strip-ansi-cjs\index.js133561797501956110 0
@@ -11,17 +11,8 @@
 65G:\React-js-3-food-application\node_modules\svgo\plugins\_path.js133561863674731511 0
 64G:\React-js-3-food-application\node_modules\lmdb\dependencies\v8133561863689804488 1
 50G:\React-js-3-food-application\node_modules\@babel133561863622915953 1
-54G:\React-js-3-food-application\dist\index.9e4c6fd2.css133563614009232186 0
+54G:\React-js-3-food-application\dist\index.9e4c6fd2.css133565217604408780 0
 58G:\React-js-3-food-application\node_modules\.bin\json5.ps1133561863710192444 0
-63G:\React-js-3-food-application\node_modules\base-x\src\index.js133561863647685738 0
-76G:\React-js-3-food-application\node_modules\yaml\dist\parse\cst-stringify.js133561797589903547 0
-81G:\React-js-3-food-application\node_modules\sucrase\dist\esm\Options-gen-types.js133561797606473069 0
-118G:\React-js-3-food-application\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json133561863674933608 0
-79G:\React-js-3-food-application\node_modules\type-fest\source\tsconfig-json.d.ts133561863675134375 0
-69G:\React-js-3-food-application\node_modules\lightningcss\package.json133561863662753033 0
-67G:\React-js-3-food-application\node_modules\tailwindcss\screens.css133561797560665300 0
-55G:\React-js-3-food-application\dist\grosary.1dcb73b5.js133563614009232186 0
-72G:\React-js-3-food-application\node_modules\postcss-selector-parser\dist133561797579214490 1
 72G:\React-js-3-food-application\node_modules\tailwindcss\defaultConfig.js133561797602344744 0
 80G:\React-js-3-food-application\node_modules\@swc\helpers\_\_dispose\package.json133561863696345022 0
 72G:\React-js-3-food-application\node_modules\source-map\lib\base64-vlq.js133561863655938839 0
@@ -34,8 +25,17 @@
 97G:\React-js-3-food-application\node_modules\css-select\node_modules\domutils\lib\esm\package.json133561863667174370 0
 70G:\React-js-3-food-application\node_modules\yaml\dist\parse\lexer.d.ts133561797618354414 0
 60G:\React-js-3-food-application\node_modules\cssesc\README.md133561797528820149 0
-59G:\React-js-3-food-application\dist\grosary.1dcb73b5.js.map133563614009312051 0
+59G:\React-js-3-food-application\dist\grosary.1dcb73b5.js.map133565217068594755 0
 115G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\properties.schema.json133561863668302761 0
+63G:\React-js-3-food-application\node_modules\base-x\src\index.js133561863647685738 0
+76G:\React-js-3-food-application\node_modules\yaml\dist\parse\cst-stringify.js133561797589903547 0
+81G:\React-js-3-food-application\node_modules\sucrase\dist\esm\Options-gen-types.js133561797606473069 0
+118G:\React-js-3-food-application\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json133561863674933608 0
+79G:\React-js-3-food-application\node_modules\type-fest\source\tsconfig-json.d.ts133561863675134375 0
+69G:\React-js-3-food-application\node_modules\lightningcss\package.json133561863662753033 0
+67G:\React-js-3-food-application\node_modules\tailwindcss\screens.css133561797560665300 0
+55G:\React-js-3-food-application\dist\grosary.1dcb73b5.js133565217068454753 0
+72G:\React-js-3-food-application\node_modules\postcss-selector-parser\dist133561797579214490 1
 73G:\React-js-3-food-application\node_modules\nanoid\async\index.browser.js133561797557611342 0
 61G:\React-js-3-food-application\node_modules\base-x\LICENSE.md133561863651171241 0
 66G:\React-js-3-food-application\node_modules\wrap-ansi-cjs\index.js133561797504350580 0
@@ -56,8 +56,8 @@
 78G:\React-js-3-food-application\node_modules\utility-types\dist\mapped-types.js133561863654362544 0
 61G:\React-js-3-food-application\node_modules\lmdb\util\when.js133561863691344803 0
 98G:\React-js-3-food-application\node_modules\@parcel\workers\test\integration\workerfarm\console.js133561863661560168 0
-41G:\React-js-3-food-application\.gitignore133561883025197428 0
-57G:\React-js-3-food-application\dist\index.7826abd7.js.map133563614009862096 0
+41G:\React-js-3-food-application\.gitignore133565143789110882 0
+57G:\React-js-3-food-application\dist\index.7826abd7.js.map133565217604348782 0
 68G:\React-js-3-food-application\node_modules\postcss\lib\postcss.d.ts133561797593544929 0
 72G:\React-js-3-food-application\node_modules\type-fest\source\except.d.ts133561863664591914 0
 63G:\React-js-3-food-application\node_modules\thenify-all\LICENSE133561797511090968 0
@@ -98,20 +98,23 @@
 69G:\React-js-3-food-application\node_modules\glob\dist\esm\glob.js.map133561797572983498 0
 88G:\React-js-3-food-application\node_modules\foreground-child\dist\cjs\all-signals.js.map133561797558507058 0
 69G:\React-js-3-food-application\node_modules\@swc\helpers\cjs\_jsx.cjs133561863680538375 0
-56G:\React-js-3-food-application\src\components\Grosary.js133559896690150764 0
+56G:\React-js-3-food-application\src\components\Grosary.js133565217595879002 0
 82G:\React-js-3-food-application\node_modules\css-tree\cjs\syntax\scope\selector.cjs133561863688429929 0
 81G:\React-js-3-food-application\node_modules\yaml\browser\dist\compose\composer.js133561797580939832 0
 54G:\React-js-3-food-application\node_modules\@parcel\fs133561863667767914 1
 96G:\React-js-3-food-application\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\LICENSE133561863647530776 0
 97G:\React-js-3-food-application\node_modules\csso\node_modules\css-tree\lib\syntax\node\AnPlusB.js133561863690636144 0
-37G:\React-js-3-food-application\App.js133559905865974213 0
+37G:\React-js-3-food-application\App.js133565217376390642 0
 64G:\React-js-3-food-application\node_modules\@parcel\profiler\src133561863663247611 1
 84G:\React-js-3-food-application\node_modules\resolve\test\resolver\browser_field\b.js133561797562683836 0
 71G:\React-js-3-food-application\node_modules\svgo\plugins\mergeStyles.js133561863679540798 0
 77G:\React-js-3-food-application\node_modules\tailwindcss\lib\cli\help\index.js133561797609511432 0
+51G:\React-js-3-food-application\utils\Usercontext.js133564391061654118 0
+90G:\React-js-3-food-application\node_modules\@babel\highlight\node_modules\has-flag\license133561863651013963 0
+77G:\React-js-3-food-application\node_modules\sucrase\dist\Options-gen-types.js133561797606610812 0
 73G:\React-js-3-food-application\node_modules\postcss\lib\no-work-result.js133561797559143643 0
 53G:\React-js-3-food-application\node_modules\jiti\dist133561797594950792 1
-35G:\React-js-3-food-application\dist133563614010232107 1
+35G:\React-js-3-food-application\dist133565217604588800 1
 104G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node133561863690917817 1
 75G:\React-js-3-food-application\node_modules\caniuse-lite\data\regions\MT.js133561863702747620 0
 82G:\React-js-3-food-application\node_modules\svgo\plugins\convertEllipseToCircle.js133561863677047769 0
@@ -192,7 +195,7 @@
 58G:\React-js-3-food-application\node_modules\pify\readme.md133561797530027039 0
 68G:\React-js-3-food-application\node_modules\is-binary-path\readme.md133561797531014813 0
 89G:\React-js-3-food-application\node_modules\@swc\helpers\cjs\_assert_this_initialized.cjs133561863657597166 0
-36G:\React-js-3-food-application\utils133561811836560731 1
+36G:\React-js-3-food-application\utils133564387009291692 1
 92G:\React-js-3-food-application\node_modules\@swc\helpers\src\_initializer_warning_helper.mjs133561863699917721 0
 101G:\React-js-3-food-application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c133561863683433853 0
 72G:\React-js-3-food-application\node_modules\sucrase\dist\esm\parser\util133561797613113363 1
@@ -230,7 +233,7 @@
 93G:\React-js-3-food-application\node_modules\wrap-ansi-cjs\node_modules\emoji-regex\index.d.ts133561797515315600 0
 99G:\React-js-3-food-application\node_modules\css-select\node_modules\entities\lib\esm\index.d.ts.map133561863677912150 0
 77G:\React-js-3-food-application\node_modules\postcss-value-parser\lib\parse.js133561797541596335 0
-58G:\React-js-3-food-application\src\components\Userclass.js133561811714222038 0
+58G:\React-js-3-food-application\src\components\Userclass.js133564407119776897 0
 45G:\React-js-3-food-application\src\components133562078976233469 1
 77G:\React-js-3-food-application\node_modules\tailwindcss\lib\util\cloneDeep.js133561797581144105 0
 62G:\React-js-3-food-application\node_modules\posthtml\readme.md133561863654362544 0
@@ -243,7 +246,7 @@
 94G:\React-js-3-food-application\node_modules\resolve\test\resolver\multirepo\packages\package-a133561797607194323 1
 84G:\React-js-3-food-application\node_modules\tailwindcss\src\util\normalizeScreens.js133561797619876743 0
 87G:\React-js-3-food-application\node_modules\sucrase\node_modules\commander\package.json133561797533845383 0
-54G:\React-js-3-food-application\src\components\About.js133559214272496049 0
+54G:\React-js-3-food-application\src\components\About.js133564422017064449 0
 59G:\React-js-3-food-application\node_modules\clone\clone.iml133561863655536301 0
 55G:\React-js-3-food-application\src\components\Shimer.js133561821275837196 0
 90G:\React-js-3-food-application\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js133561863666905150 0
@@ -261,7 +264,7 @@
 75G:\React-js-3-food-application\node_modules\caniuse-lite\data\regions\FJ.js133561863697780411 0
 70G:\React-js-3-food-application\node_modules\yaml\browser\dist\visit.js133561797614776701 0
 84G:\React-js-3-food-application\node_modules\@swc\helpers\esm\_array_without_holes.js133561863687257119 0
-53G:\React-js-3-food-application\src\components\Body.js133561937306805694 0
+53G:\React-js-3-food-application\src\components\Body.js133565192381812609 0
 75G:\React-js-3-food-application\node_modules\svgo\plugins\applyTransforms.js133561863675436867 0
 62G:\React-js-3-food-application\node_modules\strip-ansi\license133561797531718615 0
 62G:\React-js-3-food-application\node_modules\css-what\readme.md133561863667671523 0
@@ -276,7 +279,7 @@
 97G:\React-js-3-food-application\node_modules\css-select\node_modules\domhandler\lib\esm\index.d.ts133561863664231056 0
 88G:\React-js-3-food-application\node_modules\tailwindcss\src\lib\collapseAdjacentRules.js133561797586124560 0
 82G:\React-js-3-food-application\node_modules\yaml\dist\stringify\foldFlowLines.d.ts133561797617949415 0
-56G:\React-js-3-food-application\src\components\Headers.js133560079507059901 0
+56G:\React-js-3-food-application\src\components\Headers.js133564466719391167 0
 91G:\React-js-3-food-application\node_modules\sucrase\dist\esm\parser\traverser\expression.js133561797575283203 0
 80G:\React-js-3-food-application\node_modules\css-what\lib\commonjs\types.d.ts.map133561863666592257 0
 94G:\React-js-3-food-application\node_modules\caniuse-lite\data\features\document-execcommand.js133561863696548754 0
@@ -288,7 +291,7 @@
 76G:\React-js-3-food-application\node_modules\resolve\test\module_dir\xmodules133561797586640280 1
 65G:\React-js-3-food-application\node_modules\css-tree\lib\index.js133561863694658309 0
 71G:\React-js-3-food-application\node_modules\glob\dist\esm\walker.js.map133561797595393910 0
-67G:\React-js-3-food-application\src\components\ReasturantCategory.js133563605337330046 0
+67G:\React-js-3-food-application\src\components\ReasturantCategory.js133564331372466180 0
 66G:\React-js-3-food-application\node_modules\yaml\dist\options.d.ts133561797618842150 0
 88G:\React-js-3-food-application\node_modules\yaml\browser\dist\stringify\stringifyPair.js133561797611827373 0
 83G:\React-js-3-food-application\node_modules\tailwindcss\src\public\default-theme.js133561797602141870 0
@@ -297,7 +300,7 @@
 59G:\React-js-3-food-application\src\components\RestroCard.js133561163915828425 0
 71G:\React-js-3-food-application\node_modules\svgo\plugins\removeXlink.js133561863686307025 0
 74G:\React-js-3-food-application\node_modules\postcss-value-parser\README.md133561797555986122 0
-62G:\React-js-3-food-application\src\components\ResturantMenu.js133563614003677416 0
+62G:\React-js-3-food-application\src\components\ResturantMenu.js133564588251121067 0
 68G:\React-js-3-food-application\node_modules\detect-libc\package.json133561863647530776 0
 78G:\React-js-3-food-application\node_modules\yaml\dist\compose\resolve-end.d.ts133561797619527700 0
 75G:\React-js-3-food-application\node_modules\caniuse-lite\data\regions\GD.js133561863698677424 0
@@ -352,11 +355,6 @@
 64G:\React-js-3-food-application\node_modules\signal-exit\dist\mjs133561797577696311 1
 74G:\React-js-3-food-application\node_modules\@parcel\core\lib\Dependency.js133561863680965328 0
 65G:\React-js-3-food-application\node_modules\utility-types\LICENSE133561863647502818 0
-73G:\React-js-3-food-application\node_modules\yaml\dist\compose\composer.js133561797581988630 0
-67G:\React-js-3-food-application\node_modules\semver\functions\cmp.js133561863653070982 0
-58G:\React-js-3-food-application\node_modules\balanced-match133561797525829485 1
-98G:\React-js-3-food-application\node_modules\css-select\node_modules\entities\lib\esm\encode.js.map133561863676639616 0
-109G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\index.js133561863674933608 0
 55G:\React-js-3-food-application\node_modules\any-promise133561797579491479 1
 94G:\React-js-3-food-application\node_modules\@parcel\runtime-js\src\helpers\worker\js-loader.js133561863673534143 0
 65G:\React-js-3-food-application\node_modules\@parcel\namer-default133561863653254282 1
@@ -368,6 +366,11 @@
 83G:\React-js-3-food-application\node_modules\resolve\test\resolver\dot_main\index.js133561797594789116 0
 84G:\React-js-3-food-application\node_modules\yaml\browser\dist\compose\resolve-end.js133561797606610812 0
 47G:\React-js-3-food-application\node_modules\arg133561797536403671 1
+73G:\React-js-3-food-application\node_modules\yaml\dist\compose\composer.js133561797581988630 0
+67G:\React-js-3-food-application\node_modules\semver\functions\cmp.js133561863653070982 0
+58G:\React-js-3-food-application\node_modules\balanced-match133561797525829485 1
+98G:\React-js-3-food-application\node_modules\css-select\node_modules\entities\lib\esm\encode.js.map133561863676639616 0
+109G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\index.js133561863674933608 0
 103G:\React-js-3-food-application\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133561863670768557 0
 64G:\React-js-3-food-application\node_modules\which\bin\node-which133561797504400571 0
 81G:\React-js-3-food-application\node_modules\resolve\test\node_path\x\ccc\index.js133561797591450512 0
@@ -1542,9 +1545,6 @@
 71G:\React-js-3-food-application\node_modules\yaml\dist\doc\Document.d.ts133561797617629105 0
 92G:\React-js-3-food-application\node_modules\tailwindcss\src\lib\evaluateTailwindFunctions.js133561797604803893 0
 69G:\React-js-3-food-application\node_modules\yaml\dist\doc\Document.js133561797594718326 0
-78G:\React-js-3-food-application\node_modules\svgo\plugins\removeRasterImages.js133561863684166217 0
-75G:\React-js-3-food-application\node_modules\caniuse-lite\data\regions\US.js133561863705181779 0
-81G:\React-js-3-food-application\node_modules\signal-exit\dist\mjs\signals.d.ts.map133561797567442640 0
 85G:\React-js-3-food-application\node_modules\yaml\dist\compose\compose-collection.d.ts133561797616819478 0
 71G:\React-js-3-food-application\node_modules\source-map-js\source-map.js133561797560665300 0
 83G:\React-js-3-food-application\node_modules\yaml\dist\compose\compose-collection.js133561797572185817 0
@@ -2636,6 +2636,9 @@
 104G:\React-js-3-food-application\node_modules\@swc\helpers\cjs\_class_static_private_field_destructure.cjs133561863673849591 0
 94G:\React-js-3-food-application\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node133561863686524525 1
 81G:\React-js-3-food-application\node_modules\caniuse-lite\data\features\gamepad.js133561863698549430 0
+78G:\React-js-3-food-application\node_modules\svgo\plugins\removeRasterImages.js133561863684166217 0
+75G:\React-js-3-food-application\node_modules\caniuse-lite\data\regions\US.js133561863705181779 0
+81G:\React-js-3-food-application\node_modules\signal-exit\dist\mjs\signals.d.ts.map133561797567442640 0
 79G:\React-js-3-food-application\node_modules\svgo\plugins\removeScriptElement.js133561863684343479 0
 80G:\React-js-3-food-application\node_modules\css-select\lib\esm\attributes.js.map133561863674426427 0
 74G:\React-js-3-food-application\node_modules\glob\dist\esm\has-magic.js.map133561797578688317 0
@@ -2765,8 +2768,6 @@
 73G:\React-js-3-food-application\node_modules\sucrase\dist\HelperManager.js133561797595821930 0
 71G:\React-js-3-food-application\node_modules\sucrase\dist\NameManager.js133561797605156740 0
 95G:\React-js-3-food-application\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Rule.cjs133561863687257119 0
-90G:\React-js-3-food-application\node_modules\@babel\highlight\node_modules\has-flag\license133561863651013963 0
-77G:\React-js-3-food-application\node_modules\sucrase\dist\Options-gen-types.js133561797606610812 0
 80G:\React-js-3-food-application\node_modules\msgpackr\dist\unpack-no-eval.cjs.map133561863679510410 0
 67G:\React-js-3-food-application\node_modules\sucrase\dist\Options.js133561797607108780 0
 87G:\React-js-3-food-application\node_modules\caniuse-lite\data\features\css-boxshadow.js133561863690837592 0
@@ -3128,8 +3129,8 @@
 71G:\React-js-3-food-application\node_modules\css-select\lib\general.d.ts133561863684343479 0
 84G:\React-js-3-food-application\node_modules\foreground-child\dist\mjs\all-signals.js133561797527278498 0
 65G:\React-js-3-food-application\node_modules\msgpackr\benchmark.md133561863679768098 0
-71G:\React-js-3-food-application\node_modules\string-width-cjs\index.d.ts133561797523899118 0
 62G:\React-js-3-food-application\node_modules\picocolors\LICENSE133561797514065391 0
+71G:\React-js-3-food-application\node_modules\string-width-cjs\index.d.ts133561797523899118 0
 115G:\React-js-3-food-application\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyText.js133561863678370657 0
 60G:\React-js-3-food-application\node_modules\fastq\example.js133561797519352330 0
 109G:\React-js-3-food-application\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\LICENSE133561863647530776 0
@@ -3204,7 +3205,6 @@
 106G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\mergePaths.js133561863673849591 0
 64G:\React-js-3-food-application\node_modules\pirates\lib\index.js133561797521315646 0
 90G:\React-js-3-food-application\node_modules\caniuse-lite\data\features\wasm-bulk-memory.js133561863705512038 0
-85G:\React-js-3-food-application\node_modules\.bin\node-gyp-build-optional-packages.ps1133561863710192444 0
 73G:\React-js-3-food-application\node_modules\react-error-overlay\README.md133561863660106548 0
 67G:\React-js-3-food-application\node_modules\source-map-js\README.md133561797566717047 0
 90G:\React-js-3-food-application\node_modules\@parcel\transformer-js\src\esmodule-helpers.js133561863651838004 0
@@ -4724,9 +4724,9 @@
 64G:\React-js-3-food-application\node_modules\is-glob\package.json133561797519266551 0
 98G:\React-js-3-food-application\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer133561863690104780 1
 95G:\React-js-3-food-application\node_modules\css-select\node_modules\dom-serializer\lib\index.js133561863655666351 0
-78G:\React-js-3-food-application\node_modules\is-fullwidth-code-point\index.d.ts133561797513619913 0
-85G:\React-js-3-food-application\node_modules\css-tree\cjs\syntax\node\TypeSelector.cjs133561863690084444 0
 77G:\React-js-3-food-application\node_modules\fast-glob\out\readers\stream.d.ts133561797595536352 0
+85G:\React-js-3-food-application\node_modules\css-tree\cjs\syntax\node\TypeSelector.cjs133561863690084444 0
+78G:\React-js-3-food-application\node_modules\is-fullwidth-code-point\index.d.ts133561797513619913 0
 98G:\React-js-3-food-application\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Comment.cjs133561863667244602 0
 75G:\React-js-3-food-application\node_modules\is-fullwidth-code-point\license133561797526030800 0
 120G:\React-js-3-food-application\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-urange.js133561863679361219 0
@@ -8201,6 +8201,7 @@
 86G:\React-js-3-food-application\node_modules\.bin\node-gyp-build-optional-packages-test133561863710192444 0
 90G:\React-js-3-food-application\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133561863710192444 0
 85G:\React-js-3-food-application\node_modules\.bin\node-gyp-build-optional-packages.cmd133561863710192444 0
+85G:\React-js-3-food-application\node_modules\.bin\node-gyp-build-optional-packages.ps1133561863710192444 0
 63G:\React-js-3-food-application\node_modules\.bin\node-which.cmd133561797689068734 0
 55G:\React-js-3-food-application\node_modules\.bin\parcel133561863710192444 0
 59G:\React-js-3-food-application\node_modules\.bin\parcel.cmd133561863710292602 0
@@ -8221,6 +8222,8 @@
 75G:\React-js-3-food-application\node_modules\.bin\update-browserslist-db.ps1133561863710192444 0
 53G:\React-js-3-food-application\node_modules\.bin\yaml133561797689091115 0
 57G:\React-js-3-food-application\node_modules\.bin\yaml.cmd133561797689078740 0
-46G:\React-js-3-food-application\dist\index.html133563614009222047 0
-53G:\React-js-3-food-application\dist\index.7826abd7.js133563614009252101 0
-58G:\React-js-3-food-application\dist\index.9e4c6fd2.css.map133563614009812061 0
+46G:\React-js-3-food-application\dist\index.html133565212141686927 0
+55G:\React-js-3-food-application\dist\Grosary.70e809f2.js133565217604118764 0
+53G:\React-js-3-food-application\dist\index.7826abd7.js133565217604128769 0
+59G:\React-js-3-food-application\dist\Grosary.70e809f2.js.map133565217604158774 0
+58G:\React-js-3-food-application\dist\index.9e4c6fd2.css.map133565217604448794 0
