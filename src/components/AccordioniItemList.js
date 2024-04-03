@@ -1,7 +1,11 @@
 import React from 'react'
 import { CDN_URL } from '../../utils/constant'
 
+
 const AccordioniItemList = ({item}) => {
+
+  
+
    console.log('item',item)
   return (
    <div>
@@ -19,7 +23,7 @@ const AccordioniItemList = ({item}) => {
             
             <div className='w-2/12 p-2 '>
             <div className='absolute'>
-                <button className='p-2 mx-16 rounded-lg bg-black text-white shadow-lg'>Add +</button>
+                <button className='p-2 mx-16 rounded-lg bg-black text-white shadow-lg' >Add +</button>
             </div>
                 <img src={CDN_URL + items.card.info.imageId} className='w-40'/>
             </div>

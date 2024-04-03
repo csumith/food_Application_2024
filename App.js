@@ -10,6 +10,10 @@ import Newclass from "./src/components/Newclass";
 import Error from "./src/components/Error";
 import Usercontext from "./utils/Usercontext";
 import { Suspense,lazy } from "react"
+import appStore from "./utils/appStore";
+import { Provider } from "react-redux";
+
+//This provider create bridge between the reactapplication and store
 //chunking
 //lazy loading
 //code spliting
@@ -37,6 +41,8 @@ const stylecard = {
      setname(data.name)
     },[])
     return(
+        //provided store to over application
+        <Provider store={appStore}>
         <Usercontext.Provider value = {{LoggedInUSer:name,setname}}>
         <div className="app">
             <Headers/>
@@ -44,6 +50,7 @@ const stylecard = {
          
         </div>
         </Usercontext.Provider>
+        </Provider>
     )
 }
 
