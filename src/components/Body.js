@@ -9,6 +9,8 @@ const Body=()=>{
     //custom hook is created
 const onlineStatus = useOnlineState()
 
+
+//HOC
 const RestroCardPromoted = withPromoteLabel(RestroCard)
 
 console.log("checking body rerendering") 

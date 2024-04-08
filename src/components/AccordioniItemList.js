@@ -1,12 +1,18 @@
 import React from 'react'
 import { CDN_URL } from '../../utils/constant'
 
+import { useDispatch } from 'react-redux'
+import { addItem } from '../../utils/Cartslice'
+
 
 const AccordioniItemList = ({item}) => {
-
+  const dispatch = useDispatch();
   
+  const handleAddItem=(items)=>{
+    dispatch(addItem(items))
+  }
 
-   console.log('item',item)
+   console.log('Accordionitem',item)
   return (
    <div>
     {
@@ -16,14 +22,14 @@ const AccordioniItemList = ({item}) => {
             <div className='w-9/12'>
                 <div className='p-2'>
                 <span >{items.card.info.name}</span>   
-                <span > ₹{items.card.info.price/100}</span>
+                <span > ₹{items.card.info.defaultPrice/100}</span>
                 </div>
                 <p className='text-xs p-2'>{items.card.info.description}</p>
             </div>
             
             <div className='w-2/12 p-2 '>
             <div className='absolute'>
-                <button className='p-2 mx-16 rounded-lg bg-black text-white shadow-lg' >Add +</button>
+                <button className='p-2 mx-16 rounded-lg bg-black text-white shadow-lg' onClick={()=>handleAddItem(items)} >Add +</button>
             </div>
                 <img src={CDN_URL + items.card.info.imageId} className='w-40'/>
             </div>

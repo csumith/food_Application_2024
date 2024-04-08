@@ -4,7 +4,7 @@ import AccordioniItemList from './AccordioniItemList'
 
 const ReasturantCategory = ({data,showitem,setshowindex}) => {
   
-  console.log("data==",data)
+  console.log("ResturantCategory_data==",data)
 
   // const handleClick = ()=>{
   //  setshowindex()

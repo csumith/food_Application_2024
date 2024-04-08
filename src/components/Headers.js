@@ -25,7 +25,7 @@ const Headers=()=>{
 
     //Subscribing to the store using selector hooks
     const cart = useSelector((store)=>store.cart.items)
-     console.log(cart)
+     console.log("store",cart)
     return(
         <div className="flex justify-between bg-orange-700 shadow-lg">
             <div className="logo-container text-white text-xl font-semibold">
@@ -44,7 +44,7 @@ const Headers=()=>{
                     <li className="px-4 text-white hover:text-gray-300"><Link to="/about">About Us</Link></li>
                     <li className="px-4 text-white hover:text-gray-300"><Link to="/contact">Contact Us</Link></li>
                     <li className="px-4 text-white hover:text-gray-300"><Link to="/grosary">Grosary</Link></li>
-                    <li className="px-4 text-white hover:text-gray-300 font-bold">Cart ({cart.length} items)</li>
+                    <li className="px-4 text-white hover:text-gray-300 font-bold"><Link to="/cart">Cart ({cart.length} items)</Link></li>
                     <li className="px-4 text-white hover:text-gray-300"><button onClick={()=>{
                          btn==="login" ?setbtn("logout"):setbtn("login")
                     }}>{btn}</button></li>

@@ -13,7 +13,7 @@ class Newclass extends React.Component{
         console.log("Constructor Render")
     }
 
-    async componentDidMount(){
+    async componentDidMount(){ 
         console.log("ComponentDidMount called")
    const data = await fetch("https://api.github.com/users/akshaymarch7")
    const json = await data.json()
