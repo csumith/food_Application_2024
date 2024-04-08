@@ -12,7 +12,7 @@ import Usercontext from "./utils/Usercontext";
 import { Suspense,lazy } from "react"
 import appStore from "./utils/appStore";
 import { Provider } from "react-redux";
-
+import Cart from "./src/components/Cart";
 //This provider create bridge between the reactapplication and store
 //chunking
 //lazy loading
@@ -82,6 +82,10 @@ const appRouter = createBrowserRouter([
             {
                 path:"/grosary",
                 element:<Suspense><Grosary/></Suspense>
+            },
+            {
+                path:"/cart",
+                element:<Cart/>
             }
         ],
         errorElement:<Error/>
